@@ -6,4 +6,5 @@
 .main {
     height: calc(100dvh - var(--header-height));
     padding: 1rem;
+    min-height: 670px;
 }

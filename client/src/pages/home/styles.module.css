@@ -23,8 +23,6 @@
     justify-content: center;
     text-align: center;
     padding-bottom: calc(var(--header-height) + 5rem);
-
-
 }
 
 .search h1 {
@@ -38,14 +36,26 @@
     margin-bottom: 1.5rem
 }
 
-.search input {
-    padding: 1rem 0.5rem;
+.search_input {
+    position: relative;
+}
+
+.search_input input {
+    padding: 1rem;
     border: 1px solid var(--light-grey);
     min-width: 100%;
     max-width: 500px;
     width: 50vw;
     border-radius: 5px;
     font-size: 0.875rem;
+
+}
+
+.search_icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .search input::placeholder {
